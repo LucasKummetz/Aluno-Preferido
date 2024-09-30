@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <button id="sortear-aluno" class="button" onclick="sortearAluno()">Aluno favorito</button>
+        
+        <button class="button" onclick="handleClick()">Clique em mim</button>
+        <input type="text" class="custom-input" onchange="handleChange()" placeholder="Digite algo e saia">
+        <button class="button" onmouseover="handleMouseOver()">Passe o mouse</button>
+        <button class="button" onmouseout="handleMouseOut()">Saia do mouse</button>
+        <button class="button" onkeydown="handleKeyDown(event)" tabindex="0">Pressione uma tecla</button>
+        <button class="button" onload="handleLoad()">Carregar</button>
+    </div>
+
+ 
+
+    <p id="resultado"></p>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
